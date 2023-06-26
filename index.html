@@ -1,13 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფინალური</title>
+</head>
+
+<body bgcolor="dsasa1">
+    <div class="div1" id="div1">
+        <u class="final">Final</u>
+        <h3 class="h3">Posts</h3>
+        <h3 class="h3">Comments</h3>
+        <h3 class="h3">Photos</h3>
+        <h3 class="h3">Users</h3>
+        <button class="log-button1">Login</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <u class="Users">Users</u>
+    <br>
+    <br>
+
+    <div class="divss">
+        <div id="userInfo" class="user-div">
+            <button id="logb" class="log-button">Select User</button>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div id="userInfo1" class="user-div">
+            <button id="logb1" class="log-button">Select User</button>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div id="userInfo2" class="user-div">
+            <button id="logb2" class="log-button">Select User</button>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="divss">
+        <div id="userInfo3" class="user-div">
+            <button id="logb3" class="log-button">Select User</button>
+        </div>
+
+        <div id="userInfo4" class="user-div">
+            <button id="log4b" class="log-button">Select User</button>
+        </div>
+
+        <div id="userInfo5" class="user-div">
+            <button id="logb5" class="log-button">Select User</button>
+        </div>
+
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="nPost">
+        <form class="form" ><h2>Add new post</h2>
+            <input class="inp1" type="text" disabled>
+            <br>
+            <input placeholder="title" name="title" class="inp1" type="text">
+            <br>
+            <label class="label" for="body"><b>Body</b></label>
+            <textarea class="body" name="body" id="body" cols="30" rows="10"></textarea>
+            <br>
+            <button class="log-button2" type="button" onclick="addpost(this.form)">submit</button>
+        </form>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <h1><u class="photo">Photos</u></h1>
+    <div class="photoCl" id="photoId">
+
+    </div>
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+
 </html>

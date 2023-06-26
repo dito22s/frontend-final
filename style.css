@@ -1,97 +1,156 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.div1{
+    background-color: white;
+    color: black;
+    width: 1250px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
-  a:hover {
-    color: #747bff;
+  .log-button1{
+    font-size: 15px;
+    border-radius: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: -280px;
   }
-  button {
-    background-color: #f9f9f9;
+  .log-button{
+    border-radius: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: white;
   }
-}
+  .log-button2{
+    border-radius: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+  }
+  .final{
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: -280;
+  }
+    
+  
+  .nPost{
+    height: 320px;
+    width: 280px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow:black 0px 0px 30px 00px;
+    flex-direction: column;
+    margin: 0 auto ;
+    padding: 30px;
+  }
+  .form{
+    height: 320px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 20px;
+    flex-direction: column;
+  }
+  .inp1{
+   border:none;
+   Border-bottom: 1px solid black;
+   outline:none;
+   width: 100%;
+  }
+  .inp2{
+    height: 40px;
+    border-radius: 15px 15px 0px 15px;
+    border: 2px black;
+    width: 220px;
+    
+  }
+  .label{
+    display: block;
+    width: 100%;
+  }
+  .body{
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    padding: 6px;
+    border: 2px solid black;
+  }
+  
+  .Users{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-div{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    margin: 0 auto;
+    border-radius: 15px;
+  
+  }
+  
+  .h3 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  
+  .h3::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    visibility: hidden;
+  }
+  
+  .h3:hover::after {
+    visibility: visible;
+  }
+  .h3:not(:first-child) {
+    margin-left: 30px;
+  
+  }
+  .photo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divss{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nebi{
+    color: grey;
+  }
+  .nebi:hover{
+    transform: scale(1.4);
+    transition: 0.4s;
+  }
+  .photoCl{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  
+  }
